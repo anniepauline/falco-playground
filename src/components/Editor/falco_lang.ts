@@ -49,4 +49,5 @@ const falcoLang = {
     "bstartswith",
   ],
   operators: ["and", "or", "not"],
+  
 };
