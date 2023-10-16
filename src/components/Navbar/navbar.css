@@ -151,10 +151,10 @@ body {
     background-color: var(--background);
     ;
   }
-  .menu > li > a:hover {
-    color:white;
+
+  .menu>li>a:hover {
+    color: white;
   }
-  .menu > li:not(:last-child) {
 
   .menu>li:not(:last-child) {
     border-bottom: 1px solid #444;
