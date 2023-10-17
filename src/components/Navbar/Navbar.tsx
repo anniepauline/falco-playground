@@ -19,16 +19,27 @@ limitations under the License.
 import falcoLogo from "../../assets/logo.svg";
 import "./navbar.css";
 import GitHubButton from "react-github-btn";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faToggleOn } from "@fortawesome/free-solid-svg-icons/faToggleOn";
+import { faToggleOff } from "@fortawesome/free-solid-svg-icons";
+import DarkMode from "../DarkMode/DarkMode";
 
+const toggleOn = <FontAwesomeIcon icon={faToggleOn} />;
+const toggleOff = <FontAwesomeIcon icon={faToggleOff} />;
 const Navbar = () => {
+
   return (
-    <section className="top-nav">
+    <section className="top-nav" >
       <img src={falcoLogo} width="120px"></img>
       <input id="menu-toggle" type="checkbox" />
       <label className="menu-button-container" htmlFor="menu-toggle">
         <div className="menu-button"></div>
       </label>
+
       <ul className="menu">
+        <li>
+          <DarkMode />
+        </li>
         <li>
           <a href="https://falco.org/docs/">Docs</a>
         </li>
