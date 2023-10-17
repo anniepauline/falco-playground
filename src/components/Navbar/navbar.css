@@ -41,15 +41,10 @@ body {
   justify-content: space-between;
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   color: var(--color);
-  color: var(--color);
   height: 50px;
   padding: 1em;
   width: 95%;
 }
-
-
-
-
 
 .menu {
   display: flex;
@@ -60,7 +55,6 @@ body {
 }
 
 .menu>li {
-.menu>li {
   margin: 0 1rem;
   overflow: hidden;
   cursor: pointer;
@@ -70,16 +64,10 @@ body {
 }
 
 .menu>li>a {
-
-.menu>li>a {
   text-decoration: none;
   color: #00aec7;
   font-family: "Poppins";
 }
-
-.menu>li>a:hover {
-  color: var(--color);
-  ;
 
 .menu>li>a:hover {
   color: var(--color);
@@ -95,7 +83,6 @@ body {
   justify-content: center;
   align-items: center;
   color: var(--color)
-  color: var(--color)
 }
 
 #menu-toggle {
@@ -106,7 +93,6 @@ body {
 .menu-button::before,
 .menu-button::after {
   display: block;
-  background-color: var(--color);
   background-color: var(--color);
   position: absolute;
   height: 4px;
@@ -131,11 +117,9 @@ body {
 }
 
 #menu-toggle:checked+.menu-button-container .menu-button {
-#menu-toggle:checked+.menu-button-container .menu-button {
   background: rgba(79, 79, 79, 0);
 }
 
-#menu-toggle:checked+.menu-button-container .menu-button::after {
 #menu-toggle:checked+.menu-button-container .menu-button::after {
   margin-top: 0px;
   transform: rotate(-405deg);
@@ -181,13 +165,14 @@ body {
     width: 100%;
     color: white;
     background-color: var(--background);
-    
+
   }
 
   .menu>li>a:hover {
     color: white;
   }
-  .menu > li:not(:last-child) {
+
+  .menu>li:not(:last-child) {
     border-bottom: 1px solid #444;
   }
 }
