@@ -17,13 +17,11 @@ const DarkMode = () => {
             setToggle(false)
             setDarkMode()
             monaco.editor.setTheme('vs-dark');
-            console.log(document.body.getAttribute('data-theme'));
         } else {
             setToggle(true)
             setLigthMode()
             monaco.editor.setTheme('vs-light');
         }
-
     }
     return (
         <div className='dark_mode'>

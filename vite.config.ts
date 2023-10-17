@@ -26,7 +26,7 @@ import monacoEditorPlugin, {
 // https://vitejs.dev/config/
 
 const options: IMonacoEditorOpts = {
-  customWorkers: [{label:"yaml",entry:"monaco-yaml/yaml.worker.js"}],
+  customWorkers: [{ label: "yaml", entry: "monaco-yaml/yaml.worker.js" }],
   languageWorkers: ["editorWorkerService"]
 };
 export default defineConfig({

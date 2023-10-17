@@ -22,7 +22,6 @@ import GitHubButton from "react-github-btn";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faToggleOn } from "@fortawesome/free-solid-svg-icons/faToggleOn";
 import { faToggleOff } from "@fortawesome/free-solid-svg-icons";
-import useLocalStorage from "use-local-storage";
 import DarkMode from "../DarkMode/DarkMode";
 
 const toggleOn = <FontAwesomeIcon icon={faToggleOn} />;
